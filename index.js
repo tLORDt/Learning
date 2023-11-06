@@ -1,2 +1,2 @@
-// my first javascript
-console.log('Hello, World');
+let name = 'alex';
+console.log(name);
