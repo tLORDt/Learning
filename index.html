@@ -7,6 +7,9 @@
 </head>
 <body>
     <h1>Hello, World!</h1>
-    <script src="index.js"></script>
+    <form action="javascript:sendMail();" name="pmForm" id="pmForm" method="post">
+        Enter Friend's Email:
+        <input name="pmSubject" id="pmSubject" type="text" maxlength="64" style="width:98%;" />
+        <input name="pmSubmit" type="submit" value="Invite" />
 </body>
 </html>
